@@ -1,0 +1,29 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    background-color: #eeeeee;
+}
+
+.Header a {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #018762;
+    text-decoration: none;
+}
+
+.Header nav{
+    display: flex;
+    gap: 2rem;
+}
+
+.Header nav  a {
+    font-size: 1rem;
+    color: #000000;
+}
+
+.Header nav a .active{
+    color: #018762;
+}
+
