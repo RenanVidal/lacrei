@@ -3,7 +3,7 @@ import './Pages.css';
 
 export default function Home() {
   return (
-    <section className="Home">
+    <section className="pages">
       <div>
         <h1>Boas vindas a Lacrei Saúde</h1>
         <h2>Uma plataforma segura e acolhedora para comunidade LGBTQIAPN+</h2>
