@@ -12,7 +12,7 @@ Avaliar sua capacidade de escrever código limpo, bem estruturado e reutilizáve
 
 ### Recursos**:**
 
-https://www.figma.com/file/CItS5uEtcS33N4BNMxVdzS/Desafio?t=iFLiim2oOQ9w6Nl0-1 : Acesse este link do Figma para ter acesso ao layout 
+[**Figma**](https://www.figma.com/file/CItS5uEtcS33N4BNMxVdzS/Desafio?t=iFLiim2oOQ9w6Nl0-1): Acesse este link do Figma para ter acesso ao layout 
 
 [**Aplicação**](https://desafio-lacrei-five.vercel.app): Confira como deve ficar a aplicação após ser finalizada
 
