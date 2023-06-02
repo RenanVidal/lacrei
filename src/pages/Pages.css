@@ -1,16 +1,16 @@
-.Home {
+.pages {
     display: flex;
     margin: .5rem 2rem;
     justify-content: space-between;
     align-content: center;
 }
 
-.Home div {
+div {
     width: 40vw;
     margin: 2rem 0 5rem 0 ;
 }
 
-.Home div h1 {
+h1 {
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 700;
@@ -18,7 +18,7 @@
     color: #1F1F1F;
 }
 
-.Home div h2 {
+h2 {
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 400;
@@ -27,7 +27,7 @@
     margin: 2rem 0;
 }
 
-.Home div a {
+a {
     text-decoration: none;
     font-family: 'Nunito';
     font-style: normal;
@@ -42,10 +42,10 @@
     margin-right: 6rem ;
 }
 
-.Home div:last-child {
+.active {
     background-color: #018762;
 }
 
-.Home img {
+.pages img {
     width: 30vw;
 }

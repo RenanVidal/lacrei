@@ -1,6 +1,5 @@
-import { Fragment } from "react";
 import fig from './fig1.svg';
-import './Home.css';
+import './Pages.css';
 
 export default function Home() {
   return (
@@ -13,5 +12,5 @@ export default function Home() {
       </div>
       <img src={fig} alt="Desenho de uma pessoa vestida com trages que remetem a um médico" />
     </section>
-  )
+  );
 }
