@@ -56,3 +56,14 @@
     width: 40vw;
     align-self: center;
 }
+
+.pages p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #515151;
+    margin: 2rem 0;
+    padding-left: 1rem;
+    border-left: 5px #018762 solid;
+}

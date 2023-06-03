@@ -9,13 +9,13 @@ export default function Footer() {
         <hr />
         <div>
             <a href="/" className='active'>Home</a>
-            <a href="/pessoa-usuaria">Pessoa Usuária</a>
-            <a href="profissional">Profissional</a>
+            <a href="/user-person" >Pessoa Usuária</a>
+            <a href="/professional" >Profissional</a>
         </div>
         <div>
-            <a href="/" ><img src={logoFace} alt="Logo do facebook" /></a>
-            <a href="/pessoa-usuaria"><img src={logoInsta} alt="Logo do Instagram" /></a>
-            <a href="profissional"><img src={logoLikedin} alt="Logo do Linkedin" /></a>
+            <a href="https://www.facebook.com/lacrei.saude" target='_blank' ><img src={logoFace} alt="Logo do facebook" /></a>
+            <a href="https://www.instagram.com/lacrei.saude/" target='_blank' ><img src={logoInsta} alt="Logo do Instagram" /></a>
+            <a href="https://www.linkedin.com/company/lacrei" target='_blank' ><img src={logoLikedin} alt="Logo do Linkedin" /></a>
         </div>
         <h3>Desafio Front-end Lacrei</h3>
     </footer>
