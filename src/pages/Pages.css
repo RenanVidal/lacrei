@@ -3,11 +3,14 @@
     margin: .5rem 2rem;
     justify-content: space-between;
     align-content: center;
+    box-sizing: border-box;
 }
 
 .pages div {
-    width: 40%;
+    
     margin: 2rem 0 5rem 0 ;
+    align-self: center;
+    width: 40vw;
 }
 
 .pages h1 {
@@ -51,4 +54,5 @@
 
 .pages img {
     width: 40vw;
+    align-self: center;
 }

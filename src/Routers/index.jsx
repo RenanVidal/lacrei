@@ -1,26 +1,30 @@
-import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import Home from '../pages/Home';
+import * as React from "react";
+import * as ReactDOM from "react-dom";
+import {
+  createBrowserRouter,
+  Link,
+  RouterProvider,
+} from "react-router-dom";
+import Home from "../pages/Home";
 import User from '../pages/UserPerson';
-import Professional from '../pages/Professional';
 
+const Routers = createBrowserRouter ([
+    {
+        path: '/',
+        element: <Home />,
+        children: [
+            {
+            path: '/user-person',
+            element: <User />
+            }
+        ], 
+    },
+]);
 
+createBrowserRouter(Routers, {
+    basename: "/user-person",
+  });
 
-export default function Routers() {
-    
-    return (
-        
-        <Switch>
-            <Route path='/'> 
-                <Home />
-            </Route>
-            <Route path='/user-person'> 
-                <User />
-            </Route>
-            <Route path='/professional'> 
-                <Professional />
-            </Route>
-        </Switch>
-        
-    );
-}
+  <Link to = '/user-person'/>
+
+  export default Routers;

@@ -1,4 +1,4 @@
-.Header {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -7,23 +7,23 @@
     padding: 0 2rem 0 2rem;
 }
 
-.Header a {
+.header a {
     font-size: 2rem;
     font-weight: 700;
     color: #018762;
     text-decoration: none;
 }
 
-.Header nav{
+.header nav{
     display: flex;
     gap: 2rem;
 }
 
-.Header nav:first-child {
+.header .active {
     color: #018762;
 }
 
-.Header nav  a {
+.header nav  a {
     font-size: 1rem;
     color: #000000;
 }

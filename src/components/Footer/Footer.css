@@ -32,3 +32,7 @@
     color: #515151;
     margin-left: 1rem;
 }
+
+.Footer .active{
+    font-weight: 700;
+}
