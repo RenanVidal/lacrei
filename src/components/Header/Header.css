@@ -19,12 +19,14 @@
     gap: 2rem;
 }
 
+.Header nav:first-child {
+    color: #018762;
+}
+
 .Header nav  a {
     font-size: 1rem;
     color: #000000;
 }
 
-.active{
-    color: #018762;
-}
+
 

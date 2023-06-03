@@ -5,9 +5,9 @@ export default function Header() {
     <header className='Header'>
         <a href="/">Lacrei</a>
         <nav>
-            <a href="/" className='active'>Home</a>
-            <a href="/pessoa-usuaria">Pessoa Usuária</a>
-            <a href="profissional">Profissional</a>
+            <a href="/">Home</a>
+            <a href="/user-person" >Pessoa Usuária</a>
+            <a href="/professional" >Profissional</a>
         </nav>
     </header>
   );
