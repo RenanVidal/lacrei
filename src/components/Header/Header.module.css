@@ -7,25 +7,29 @@
     padding: 0 2rem 0 2rem;
 }
 
-.header a {
+.title {
     font-size: 2rem;
     font-weight: 700;
     color: #018762;
     text-decoration: none;
 }
 
-.header nav{
+.navigation{
     display: flex;
     gap: 2rem;
+    font-weight: 700;
+    text-decoration: none;
 }
 
-.header .active {
+.active {
     color: #018762;
 }
 
-.header nav  a {
+.links {
     font-size: 1rem;
+    font-weight: 700;
     color: #000000;
+    text-decoration: none;
 }
 
 

@@ -1,16 +1,17 @@
 import logoFace from './FacebookLogo.svg';
 import logoInsta from './InstagramLogo.svg';
 import logoLikedin from './LinkedinLogo.svg';
-import './Footer.css';
+import MenuLinks from '../MenuLinks';
+import styles from './Baseboard.module.css';
 
 export default function Footer() {
   return (
-    <footer className='Footer'>
+    <footer className={styles.baseboard}>
         <hr />
         <div>
-            <a href="/" className='active'>Home</a>
-            <a href="/user-person" >Pessoa Usuária</a>
-            <a href="/professional" >Profissional</a>
+          <MenuLinks to="/" style={styles.baseboardActive}>Home</MenuLinks>
+          <MenuLinks to="/user-person"  style={styles.baseboardActive} >Pessoa Usuária</MenuLinks>
+          <MenuLinks to="/professional"  style={styles.baseboardActive} >Profissional</MenuLinks>
         </div>
         <div>
             <a href="https://www.facebook.com/lacrei.saude" target='_blank' ><img src={logoFace} alt="Logo do facebook" /></a>

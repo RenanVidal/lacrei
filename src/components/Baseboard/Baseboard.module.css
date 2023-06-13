@@ -1,22 +1,22 @@
-.Footer {
+.baseboard {
     display: flex;
     flex-direction: column;
     margin: .5rem 2rem .5rem 2rem;
     gap: 1rem;
 }
 
-.Footer hr {
+.baseboard hr {
     height: 1px;
     color: #B0E0D3;
 }
 
-.Footer div {
+.baseboard div {
     display: flex;
     gap: 2rem;
     margin: 0 1rem 0 1rem;
 }
 
-.Footer a {
+.baseboard a {
     text-decoration: none;
     font-family: 'Nunito';
     font-weight: 400;
@@ -24,7 +24,7 @@
 
 }
 
-.Footer h3{
+.baseboard h3{
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 400;
@@ -33,6 +33,6 @@
     margin-left: 1rem;
 }
 
-.Footer .active{
+.baseboardActive{
     font-weight: 700;
 }
